@@ -2,19 +2,19 @@ import Image from "next/image";
 
 const people = [
   {
-    imageUrl: "/perfil2.png",
+    imageUrl: "/perfil-2.png",
   },
   {
-    imageUrl: "/perfil1.png",
+    imageUrl: "/perfil-1.png",
   },
   {
-    imageUrl: "/perfil5.png",
+    imageUrl: "/perfil-5.png",
   },
   {
-    imageUrl: "/perfil3.png",
+    imageUrl: "/perfil-3.png",
   },
   {
-    imageUrl: "/perfil4.png",
+    imageUrl: "/perfil-4.png",
   },
 ];
 

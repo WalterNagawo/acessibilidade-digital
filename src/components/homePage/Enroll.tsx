@@ -1,23 +1,35 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
+import { useState } from "react";
 
 export default function Enroll() {
   return (
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto flex flex-col items-center">
-        <div className="w-full lg:w-3/5 md:w-1/2 mb-10">
+        {/* <div className="w-full lg:w-3/5 md:w-1/2 mb-10">
           <h1 className="title-font font-medium text-3xl text-gray-900 text-center">
             Slow-carb next level shoindcgoitch ethical authentic, poko scenester
           </h1>
           <p className="leading-relaxed mt-4 text-center">
-            Poke slow-carb mixtape knausgaard, typewriter street art gentrify hammock starladder roathse. Craies vegan tousled etsy austin.
+            Poke slow-carb mixtape knausgaard, typewriter street art gentrify
+            hammock starladder roathse. Craies vegan tousled etsy austin.
           </p>
-        </div>
+        </div> */}
         <div className="w-full lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col items-center md:mt-0">
-          <h2 className="text-gray-900 text-lg font-medium title-font mb-5">Sign Up</h2>
+          <p className="leading-relaxed mt-4 text-center">
+            Insira as suas informações pessoais abaixo para garantir a sua
+            inscrição gratuita!
+          </p>
+          {/* <h2 className="text-gray-900 text-lg font-medium title-font mb-5">
+            Sign Up
+          </h2> */}
           <div className="relative mb-4 w-full">
-            <label htmlFor="full-name" className="leading-7 text-sm text-gray-600">Full Name</label>
+            <label
+              htmlFor="full-name"
+              className="leading-7 text-sm text-gray-600"
+            >
+              Full Name
+            </label>
             <input
               type="text"
               id="full-name"
@@ -26,7 +38,9 @@ export default function Enroll() {
             />
           </div>
           <div className="relative mb-4 w-full">
-            <label htmlFor="email" className="leading-7 text-sm text-gray-600">Email</label>
+            <label htmlFor="email" className="leading-7 text-sm text-gray-600">
+              Email
+            </label>
             <input
               type="email"
               id="email"
