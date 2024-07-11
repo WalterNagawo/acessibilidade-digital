@@ -23,7 +23,7 @@ const people = [
 
 export default function Sponsors() {
   return (
-    <div className="bg-white relative mb-20">
+    <div className="bg-white relative">
       <div className="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col items-center relative z-10">
         <ul role="list" className="flex gap-x-2 sm:gap-x-4 -mb-2 z-10">
           {people.map((person, index) => (

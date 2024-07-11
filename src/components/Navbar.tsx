@@ -54,7 +54,7 @@ export default function Navbar() {
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <button className="rounded-2xl bg-customBlue text-white px-8 py-2 text-lg font-semibold leading-6 hover:bg-indigo-500">
+          <button className="rounded-2xl bg-customBlue text-white px-8 py-2 text-lg font-semibold leading-6 hover:bg-customBlue2">
             Inscreva-se
           </button>
         </div>
