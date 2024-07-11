@@ -70,19 +70,19 @@ export default function Speakers() {
                   className="w-24 h-24 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
                 />
                 <div className="flex-grow">
-                  <h2 className="text-gray-900 title-font font-medium">
+                  <h2 className="text-customBlue title-font font-semibold">
                     {speaker.name}
                   </h2>
-                  <p className="text-gray-500 mb-2">
-                    <span className="font-semibold">Biografia:</span>{" "}
+                  <p className="text-black mb-2">
+                    <span className="font-bold">Biografia:</span>{" "}
                     {speaker.biography}
                   </p>
-                  <p className="text-gray-500 mb-2">
-                    <span className="font-semibold">Palestra:</span>{" "}
+                  <p className="text-black mb-2">
+                    <span className="font-bold">Palestra:</span>{" "}
                     {speaker.talk}
                   </p>
-                  <p className="text-gray-500">
-                    <span className="font-semibold">Resumo:</span>{" "}
+                  <p className="text-black">
+                    <span className="font-bold">Resumo:</span>{" "}
                     {speaker.summary}
                   </p>
                 </div>

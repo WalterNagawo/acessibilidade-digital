@@ -5,32 +5,32 @@ const specialists = [
   {
     imgSrc: "/sponsors/sponsor-1.png",
     description:
-      "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+      "TechCorp é líder em tecnologia acessível, oferecendo soluções inovadoras para tornar o mundo digital mais inclusivo.Website: www.techcorp.com",
   },
   {
     imgSrc: "/sponsors/sponsor-2.png",
     description:
-      "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+      "InovaSoft desenvolve softwares que ajudam empresas a implementar acessibilidade em suas plataformas.Website: www.inovasoft.com",
   },
   {
     imgSrc: "/sponsors/sponsor-3.png",
     description:
-      "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+      "AccessIT fornece consultoria e ferramentas para melhorar a acessibilidade de websites e aplicativos.Website: www.accessit.com",
   },
   {
     imgSrc: "/sponsors/sponsor-4.png",
     description:
-      "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+      "Global Inclusion promove a inclusão digital através de treinamentos e certificações em acessibilidade.Website: www.globalinclusion.org",
   },
   {
     imgSrc: "/sponsors/sponsor-5.png",
     description:
-      "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+      "InclusivaTech é uma startup dedicada a criar produtos tecnológicos acessíveis para todos.Website: www.inclusivatech.com",
   },
   {
     imgSrc: "/sponsors/sponsor-6.png",
     description:
-      "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+      "EasyAccess desenvolve ferramentas que facilitam a navegação na web para pessoas com deficiência visual.Website: www.easyaccess.com",
   },
 ];
 
@@ -60,7 +60,7 @@ export default function Blog() {
                     alt="blog"
                   />
                   <div className="p-6">
-                    <p className="leading-relaxed mb-3">
+                    <p className="leading-relaxed mb-3 text-center text-black font-medium">
                       {specialist.description}
                     </p>
                   </div>
