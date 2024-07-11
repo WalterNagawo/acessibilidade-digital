@@ -38,9 +38,12 @@ export default function Team() {
           ))}
         </ul>
         <div className="flex justify-center relative z-0">
-          <button className="flex items-center bg-customBlue text-white text-xl font-semibold py-4 px-9 rounded-xl shadow-lg hover:bg-customBlue2 focus:outline-none focus:ring-2 focus:ring-customBlue2 focus:ring-offset-2">
+          <a
+            href="/speakers"
+            className="flex items-center bg-customBlue text-white text-xl font-semibold py-4 px-9 rounded-xl shadow-lg hover:bg-customBlue2 focus:outline-none focus:ring-2 focus:ring-customBlue2 focus:ring-offset-2"
+          >
             Saiba mais detalhes sobre os nossos palestrantes
-          </button>
+          </a>
         </div>
       </div>
     </div>
